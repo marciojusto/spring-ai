@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-ai
+
+  ai:
+    openai:
+      api-key: ${KILO_API_KEY}
+      base-url: ${KILO_BASE_URL}
+      chat:
+        model: ${KILO_MODEL}
